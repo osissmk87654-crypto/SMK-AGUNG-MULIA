@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SMK AGUNG MULIA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h2>Dashboard Siswa</h2>
+            <button id="logoutBtn">Logout</button>
+        </header>
+        <main>
+            <h3>Selamat Datang di SMK AGUNG MULIA!</h3>
+            <p>Anda berhasil login sebagai <span id="userDisplay"></span>.</p>
+        </main>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
